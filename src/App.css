@@ -5,12 +5,12 @@
 body {
   padding-top: 4rem;
   margin: 0px;
-  padding: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
   --type-secont: 'Spectral', Georgia;
   font-family: var(--type-first);
 }
+
 
 h1,
 h2,
@@ -31,7 +31,7 @@ img {
   width: 100%;
 }
 
-button{
+button, input{
   display:block;
   font-size: 1rem;
   font-family: var(--type-first);

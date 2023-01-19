@@ -5,14 +5,14 @@ import { ReactComponent as Dog } from '../Components/Assets/dogs.svg'
 
 function Header() {
   return (
-    <div className={styles.header}>
-      <nav className='container'>
+    <header className={styles.header}>
+      <nav className={`${styles.nav} container`}>
         <Link  className={styles.logo} to="/" aria-label='Dog - Home'>
           <Dog /> 
         </Link>
         <Link className= {styles.login} to="/Login">Login / Criar Login</Link>
       </nav>
-    </div>
+    </header>
   )
 }
 export default Header

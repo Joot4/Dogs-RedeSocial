@@ -4,14 +4,15 @@
   width: 100%;
   z-index: 100;
   background-color: #fff;
-  top:0;
+  top:0px;
 }
 
-nav{
+.nav{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
   height: 4rem;
+  
 }
 
 .logo{
